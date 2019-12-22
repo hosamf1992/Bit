@@ -1,0 +1,39 @@
+
+.edit-page{
+   height: 93vh;
+}
+.toolbar-edit{
+    margin-top: 45px;
+}
+.avatar{
+    height: 200px;
+    width: 200px;
+}
+.form-edit{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+     height: 30px;
+     margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    background: #0a0a0ab3;
+    padding: 10px;
+    }
+    button{
+      border: 0;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background: #c7485c;
+    cursor: pointer;
+    margin-left: 5px;
+    }
+}
+.edit-btns{
+    margin-left: 160px;
+}

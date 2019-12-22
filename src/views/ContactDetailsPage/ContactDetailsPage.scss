@@ -1,0 +1,38 @@
+.contact-details{
+    margin-top: 45px;
+    min-height: 92.5vh;
+   
+}
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 55px;
+    padding: 16px;
+    background: black;
+    cursor: pointer;
+    button{
+        border: 0;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    }
+}
+.moves-history{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+  span{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+}
+.move-icon:hover{
+    color:#c7485c
+}

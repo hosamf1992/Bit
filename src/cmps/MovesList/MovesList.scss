@@ -1,0 +1,31 @@
+
+
+.moves-details{
+    display: flex;
+    place-items: flex-start;
+    flex-direction: column;
+    /* justify-items: flex-start; */
+    padding: 15px;
+    span{
+        margin-bottom: 5px;
+    }
+    .date{
+        color:lightslategray;
+        font-size: 13px;;
+    }
+    .amount{
+        font-size: 20px;
+        color: seagreen;
+    }
+    .status{
+        font-size: 15px;
+
+    }
+    .to{
+        font-size: 23px;
+    }
+
+}
+.status{
+    color:lightcoral
+}
